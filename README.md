@@ -27,9 +27,9 @@ I'm currently looking to grow inside a professional engineering team where I can
 ## What I Build
 
 - **Full-Stack MVPs** - React, Next.js, Node.js, APIs, database design, deployment
-- **AI Workflows** - structured input, retrieval, context design, reliable output contracts
-- **Product Systems** - dashboards, leaderboards, admin tools, reward logic, user flows
-- **Data & Analytics** - tracking, ranking, performance views, decision-support interfaces
+- **AI Workflows** - structured input, retrieval, context design, reliable output contracts, AI coding agents, and v0-assisted prototyping
+- **Product Systems** - dashboards, leaderboards, admin tools, reward logic, user flows, Figma flows, and technical diagrams
+- **Data & Analytics** - tracking, ranking, performance dashboards, product metrics, and clear reporting views
 - **Fast 0 to 1 Execution** - ship, test, learn, and improve with an AI-assisted workflow
 
 ---
@@ -58,6 +58,8 @@ I'm currently looking to grow inside a professional engineering team where I can
 ### Database & Data
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Database Design](https://img.shields.io/badge/Database_Design-4B5563?style=for-the-badge&logo=databricks&logoColor=white)
 ![Leaderboards](https://img.shields.io/badge/Leaderboards-F59E0B?style=for-the-badge&logo=googlesheets&logoColor=white)
@@ -69,12 +71,15 @@ I'm currently looking to grow inside a professional engineering team where I can
 ![RAG](https://img.shields.io/badge/RAG_Retrieval-7C3AED?style=for-the-badge&logo=semanticweb&logoColor=white)
 ![Structured Output](https://img.shields.io/badge/Structured_Output-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white)
 ![Prompt Workflow](https://img.shields.io/badge/Prompt_Workflow-9333EA?style=for-the-badge&logo=markdown&logoColor=white)
+![AI Coding Agents](https://img.shields.io/badge/AI_Coding_Agents-111827?style=for-the-badge&logo=openai&logoColor=white)
+![v0](https://img.shields.io/badge/v0-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![OCR Direction](https://img.shields.io/badge/OCR_Direction-DC2626?style=for-the-badge&logo=googlelens&logoColor=white)
-![Decision Support](https://img.shields.io/badge/Decision_Support-1D4ED8?style=for-the-badge&logo=target&logoColor=white)
 
 ### Product, UI & Deployment
 
 ![Product Design](https://img.shields.io/badge/Product_Design-111827?style=for-the-badge&logo=figma&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Diagram Design](https://img.shields.io/badge/Diagram_Design-6366F1?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
 ![Dashboard UX](https://img.shields.io/badge/Dashboard_UX-0EA5E9?style=for-the-badge&logo=tableau&logoColor=white)
 ![Responsive UI](https://img.shields.io/badge/Responsive_UI-14B8A6?style=for-the-badge&logo=responsive&logoColor=white)
 ![Browser Extension Concept](https://img.shields.io/badge/Browser_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
