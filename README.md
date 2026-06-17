@@ -26,11 +26,21 @@ I'm currently looking to grow inside a professional engineering team where I can
 
 ## What I Build
 
-- **Full-Stack MVPs** - React, Next.js, Node.js, APIs, database design, deployment
-- **AI Workflows** - structured input, retrieval, context design, reliable output contracts, AI coding agents, and v0-assisted prototyping
-- **Product Systems** - dashboards, leaderboards, admin tools, reward logic, user flows, Figma flows, technical diagrams, and native-like cross-platform experiences
-- **Data & Analytics** - tracking, ranking, performance dashboards, product metrics, and clear reporting views
-- **Fast 0 to 1 Execution** - ship, test, learn, and improve with an AI-assisted workflow
+- **Full-Stack MVPs** - React, Next.js, Node.js, APIs, database design, admin dashboards, deployment
+- **AI-Native Workflows** - structured input, context retrieval, RAG, output contracts, AI memory, recommendation logic
+- **AI Coding Agent Workflow** - Cursor, Claude Code/Codex-style workflows, MCP concepts, v0-assisted prototyping, requirement-to-code execution
+- **Product Systems** - dashboards, leaderboards, reward logic, user flows, Figma flows, technical diagrams, and native-like cross-platform experiences
+- **Fast 0 to 1 Execution** - clarify requirements, build MVP, ship, test, learn, and iterate quickly
+
+---
+
+## AI-Native Development Workflow
+
+My workflow usually starts before coding. I turn vague product ideas into user stories, API/data flows, acceptance criteria, edge cases, and implementation-ready tasks.
+
+Then I use AI coding agents such as Cursor, Claude Code/Codex-style workflows, v0, MCP concepts, and local LLM experimentation to speed up implementation, code review, debugging, refactoring, and MVP iteration.
+
+I believe AI becomes powerful when input, context, and data structure are designed well. Good AI products are not just prompt boxes; they are workflows that structure messy input, retrieve the right context, reason over it, and produce useful product output.
 
 ---
 
@@ -77,6 +87,10 @@ I'm currently looking to grow inside a professional engineering team where I can
 ![Structured Output](https://img.shields.io/badge/Structured_Output-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white)
 ![Prompt Workflow](https://img.shields.io/badge/Prompt_Workflow-9333EA?style=for-the-badge&logo=markdown&logoColor=white)
 ![AI Coding Agents](https://img.shields.io/badge/AI_Coding_Agents-111827?style=for-the-badge&logo=openai&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Concepts-374151?style=for-the-badge&logo=protocolsdotio&logoColor=white)
 ![v0](https://img.shields.io/badge/v0-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![OCR Direction](https://img.shields.io/badge/OCR_Direction-DC2626?style=for-the-badge&logo=googlelens&logoColor=white)
 ![Workflow Automation](https://img.shields.io/badge/Workflow_Automation-0EA5E9?style=for-the-badge&logo=n8n&logoColor=white)
@@ -117,6 +131,7 @@ I'm currently looking to grow inside a professional engineering team where I can
 ![Security Basics](https://img.shields.io/badge/Security_Basics-991B1B?style=for-the-badge&logo=letsencrypt&logoColor=white)
 ![Code Review](https://img.shields.io/badge/Code_Review-334155?style=for-the-badge&logo=github&logoColor=white)
 ![Documentation](https://img.shields.io/badge/Documentation-2563EB?style=for-the-badge&logo=readthedocs&logoColor=white)
+
 ---
 
 ## Featured Projects
@@ -133,11 +148,11 @@ RobinHUD turns messy poker player notes into structured strategy signals. It nor
 
 ---
 
-### Topic4Quizz
+### Topic2Test
 
 **AI quiz generator with RAG**
 
-Topic4Quizz turns any topic into structured quizzes with retrieved context. The output is designed as reusable product data: question, answer options, correct answer, explanation, difficulty, and topic tags.
+Topic2Test turns any topic into structured quizzes with retrieved context. The output is designed as reusable product data: question, answer options, correct answer, explanation, difficulty, and topic tags.
 
 **Stack:** Next.js, React, Node.js, RAG-style retrieval, LLM structured output, database design, prompt workflow design
 
@@ -187,6 +202,9 @@ AI is useful when input, context, and output are designed well.
 
 Structure > Vague Text
 Messy user data should become fields the product can use.
+
+Requirements > Random Generation
+AI coding agents work best when tasks, acceptance criteria, and edge cases are clearly defined.
 
 MVP > Perfect Plan
 Start with the strongest user loop, prove it, then expand.
