@@ -28,7 +28,7 @@ I'm currently looking to grow inside a professional engineering team where I can
 
 - **Full-Stack MVPs** - React, Next.js, Node.js, APIs, database design, deployment
 - **AI Workflows** - structured input, retrieval, context design, reliable output contracts, AI coding agents, and v0-assisted prototyping
-- **Product Systems** - dashboards, leaderboards, admin tools, reward logic, user flows, Figma flows, and technical diagrams
+- **Product Systems** - dashboards, leaderboards, admin tools, reward logic, user flows, Figma flows, technical diagrams, and native-like cross-platform experiences
 - **Data & Analytics** - tracking, ranking, performance dashboards, product metrics, and clear reporting views
 - **Fast 0 to 1 Execution** - ship, test, learn, and improve with an AI-assisted workflow
 
@@ -42,7 +42,7 @@ I'm currently looking to grow inside a professional engineering team where I can
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
@@ -82,7 +82,7 @@ I'm currently looking to grow inside a professional engineering team where I can
 ![Diagram Design](https://img.shields.io/badge/Diagram_Design-6366F1?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
 ![Dashboard UX](https://img.shields.io/badge/Dashboard_UX-0EA5E9?style=for-the-badge&logo=tableau&logoColor=white)
 ![Responsive UI](https://img.shields.io/badge/Responsive_UI-14B8A6?style=for-the-badge&logo=responsive&logoColor=white)
-![Browser Extension Concept](https://img.shields.io/badge/Browser_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Native--Like Apps](https://img.shields.io/badge/Native--Like_Apps-111827?style=for-the-badge&logo=electron&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
