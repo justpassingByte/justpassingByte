@@ -36,20 +36,50 @@ I'm currently looking to grow inside a professional engineering team where I can
 
 ## Tech Stack
 
-<div align="center">
+### Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+### Backend & API
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+![Auth](https://img.shields.io/badge/Auth-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Admin Dashboard](https://img.shields.io/badge/Admin_Dashboard-2563EB?style=for-the-badge&logo=googletagmanager&logoColor=white)
+![Real--Time Systems](https://img.shields.io/badge/Real--Time_Systems-FF6B35?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+### Database & Data
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLM_Workflows-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Database Design](https://img.shields.io/badge/Database_Design-4B5563?style=for-the-badge&logo=databricks&logoColor=white)
+![Leaderboards](https://img.shields.io/badge/Leaderboards-F59E0B?style=for-the-badge&logo=googlesheets&logoColor=white)
+![Analytics](https://img.shields.io/badge/Analytics-10B981?style=for-the-badge&logo=googleanalytics&logoColor=white)
 
-</div>
+### AI Product Workflows
+
+![OpenAI](https://img.shields.io/badge/LLM_Workflows-412991?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Retrieval-7C3AED?style=for-the-badge&logo=semanticweb&logoColor=white)
+![Structured Output](https://img.shields.io/badge/Structured_Output-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white)
+![Prompt Workflow](https://img.shields.io/badge/Prompt_Workflow-9333EA?style=for-the-badge&logo=markdown&logoColor=white)
+![OCR Direction](https://img.shields.io/badge/OCR_Direction-DC2626?style=for-the-badge&logo=googlelens&logoColor=white)
+![Decision Support](https://img.shields.io/badge/Decision_Support-1D4ED8?style=for-the-badge&logo=target&logoColor=white)
+
+### Product, UI & Deployment
+
+![Product Design](https://img.shields.io/badge/Product_Design-111827?style=for-the-badge&logo=figma&logoColor=white)
+![Dashboard UX](https://img.shields.io/badge/Dashboard_UX-0EA5E9?style=for-the-badge&logo=tableau&logoColor=white)
+![Responsive UI](https://img.shields.io/badge/Responsive_UI-14B8A6?style=for-the-badge&logo=responsive&logoColor=white)
+![Browser Extension Concept](https://img.shields.io/badge/Browser_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
