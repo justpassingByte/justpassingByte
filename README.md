@@ -179,8 +179,8 @@ Great software completes the operational loop — from database records to real-
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=justpassingByte&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=justpassingByte&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=justpassingByte&theme=tokyonight&hide_border=true" height="155" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=justpassingByte&show_icons=true&theme=tokyonight&hide_border=true" height="155" alt="GitHub Stats" />
 </div>
 
 ---
