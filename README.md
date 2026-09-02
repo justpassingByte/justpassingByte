@@ -4,7 +4,7 @@
 
 ### Full-Stack Engineer | Next.js • NestJS • PostgreSQL • Redis • Agentic AI
 
-*Product-driven engineer architecting high-trust Marketplaces, Multi-Gateway Payment Engines, State-Driven Workflows, and Agentic AI Systems.*
+*Product-driven engineer architecting high-trust marketplaces, multi-gateway payment engines, state-driven workflows, and agentic AI systems.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-justpassingByte-181717?style=for-the-badge&logo=github)](https://github.com/justpassingByte)
 [![Facebook](https://img.shields.io/badge/Facebook-Leoz666-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/Leoz666)
@@ -14,115 +14,115 @@
 
 ---
 
-## 🧭 About Me & Career Aspirations
+## About Me & Career Aspirations
 
-- 💼 **Current Focus:** Full-Stack Engineering at **Trustbase** (Digital Products & Freelance Marketplace).
-- 🏗️ **Core Stack:** **Next.js** (Frontend) • **NestJS** (Backend) • **PostgreSQL & Redis** (Database, Caching & Concurrency).
-- 🤖 **AI-Native Engineering:** Tối ưu hóa hiệu suất phát triển phần mềm bằng **Agentic Systems** — ứng dụng Subagents orchestration, Agent Skills, System Rules, Tool Calling và MCP vào phân tích bài toán, refactoring và automated code review.
-- 🎯 **Career Aspiration & Growth Mindset:** 
-  Luôn mang tinh thần cầu thị và khao khát kiến thức mới. Tôi tìm kiếm cơ hội làm việc trong các **môi trường kỹ thuật chuyên nghiệp, quy mô lớn**, nơi tôi có thể đóng góp khả năng thực thi sản phẩm nhanh nhạy, đồng thời rèn luyện văn hóa **Code Review nghiêm ngặt**, tư duy hệ thống phân tán và thói quen kỹ thuật chuẩn mực của các senior engineers.
-
----
-
-## 🏛️ System Design & Architectural Highlights
-
-> Những tư duy thiết kế và bài toán kỹ thuật tôi tập trung giải quyết trong các sản phẩm thực tế:
-
-- 🔄 **State-Driven Architectures (FSM):**  
-  Mô hình hóa các luồng nghiệp vụ phức tạp (Order, Escrow, Dispute) bằng máy trạng thái hữu hạn (Finite State Machine), đảm bảo tính tiền định (deterministic transitions) và triệt tiêu race conditions trong môi trường concurrency cao.
-
-- 💳 **Modular Payment Engines & Cashflow Integrity:**  
-  Thiết kế kiến trúc Payment Gateway dạng module (Factory & Adapter Pattern) dễ dàng mở rộng đa nhà cung cấp, tích hợp cơ chế Webhook Idempotency chống duplicate transactions và tự động hóa quy trình đối soát dòng tiền.
-
-- ⚡ **Distributed Caching & Concurrency Control (Redis):**  
-  Tối ưu hóa hiệu năng đọc qua distributed caching, kiểm soát Idempotency Keys cho các luồng thanh toán nhạy cảm và thiết lập Rate Limiting bảo vệ hạ tầng API.
-
-- 📦 **Secure Asset Pipelines (Presigned S3 URLs):**  
-  Thiết kế pipeline truyền tải tệp số an toàn trực tiếp qua S3/Cloud Storage bằng Presigned URLs có gắn signature xác thực và TTL ngắn, giảm thiểu gánh nặng I/O cho application server.
-
-- 🔐 **Authentication & Multi-Tier Access Control:**  
-  Triển khai JWT Authentication kết hợp **Refresh Token Rotation**, quản lý phiên làm việc đa thiết bị và kiểm soát quyền hạn đa tầng (RBAC).
+- **Current Focus:** Full-Stack Engineering at **Trustbase** (Digital Products & Freelance Marketplace).
+- **Core Stack:** Next.js (Frontend), NestJS (Backend), PostgreSQL & Redis (Data, Caching & Concurrency).
+- **AI-Native Engineering:** Designing structured software workflows with **Agentic Systems** — orchestrating subagent delegations, custom agent skills, domain rules, tool calling, and MCP for requirements modeling, refactoring, and code verification.
+- **Career Growth & Philosophy:** 
+  Driven by curiosity and a commitment to engineering excellence. I am actively looking to contribute within **high-standard, collaborative engineering teams** where I can execute fast while refining habits around rigorous code reviews, distributed system design, and production reliability.
 
 ---
 
-## 🤖 Next-Gen Agentic Workflows & Code Review
+## System Design & Architecture Highlights
 
-Tôi nhìn nhận AI không phải là công cụ sinh code ngẫu nhiên, mà là một **quy trình có cấu trúc (Structured Workflow)** được kiểm soát chặt chẽ:
+Key engineering patterns and production challenges I tackle across real-world systems:
 
-- 🧠 **Hierarchical Subagents Orchestration:** Phân rã các bài toán phức tạp thành các luồng độc lập, giao việc có mục tiêu rõ ràng cho các subagents chạy nền song song.
-- 📜 **Context-Aware Skills & Rules:** Thiết lập bộ quy tắc (System Rules) và Domain Skills đặc thù để định hướng agent tuân thủ nghiêm ngặt design patterns và kiến trúc codebase.
-- 🔍 **Continuous Code Review & Verification:** Tận dụng AI agents trong việc rà soát lỗi logic, boundary test cases và edge cases trước khi merge, đảm bảo chất lượng mã nguồn cao nhất.
+- **State-Driven Architectures (FSM):**  
+  Model complex domain lifecycles (Order, Escrow, Dispute resolution) using Finite State Machines to enforce deterministic state transitions and eliminate race conditions under concurrent workloads.
+
+- **Modular Payment Engines & Cashflow Integrity:**  
+  Architect modular payment gateways using the Factory and Adapter patterns for seamless multi-provider expansion, integrated with webhook idempotency keys to prevent duplicate transactions and automate revenue reconciliation.
+
+- **Distributed Caching & Concurrency Control (Redis):**  
+  Optimize read performance with distributed caching layers, enforce distributed idempotency locks on financial operations, and implement rate limiters to protect critical API endpoints.
+
+- **Secure Digital Asset Delivery (Presigned S3 URLs):**  
+  Design direct cloud-storage upload/download pipelines with short-lived presigned URLs and cryptographic signatures, eliminating I/O bottlenecks on backend servers while securing digital property.
+
+- **Authentication & Multi-Tier Access Control:**  
+  Implement robust JWT authentication with refresh token rotation, multi-device session management, and multi-tier role-based access control (RBAC).
 
 ---
 
-## 🚀 Featured Products & Ecosystems
+## Agentic AI Workflows & Code Review
 
-### 🃏 RobinHUD
+Treating AI not as a stochastic code generator, but as a structured, deterministic workflow:
+
+- **Hierarchical Subagent Orchestration:** Break complex business problems into scoped subtasks and orchestrate concurrent background agent delegations.
+- **Context-Aware Rules & Domain Skills:** Establish system rules and specialized skills that enforce codebase patterns, typing standards, and architectural boundaries.
+- **Automated Verification & Code Review:** Utilize continuous AI-assisted review pipelines to inspect logic boundaries, test cases, and edge scenarios prior to merge.
+
+---
+
+## Featured Products & Ecosystems
+
+### RobinHUD
 **Transforming raw notes into high-dimensional strategic signals & exploit intelligence**
 
-RobinHUD chuyển hóa những mẩu ghi chú poker phi cấu trúc, lộn xộn thành dữ liệu chiến thuật đa chiều (vị trí, street, cấu trúc mặt bài, độ sâu stack, xu hướng đối thủ). Kết hợp RAG và mô hình LLM reasoning để phát hiện lỗ hổng hành vi (behavioral leaks) và kiến tạo các đề xuất exploit chuẩn xác trong từng quyết định.
+Converts unstructured, noisy poker observations into multidimensional tactical signals (position, street, board texture, stack depth, opponent tendencies). Combines RAG retrieval with LLM reasoning to identify behavioral leaks and produce precise exploit recommendations.
 
-- **Stack:** Next.js, React, TypeScript, Node.js, RAG Retrieval, LLM Integration.
+- **Stack:** Next.js, React, TypeScript, Node.js, RAG Retrieval, LLM Integration
 
 ---
 
-### 🎮 Testictour
+### Testictour
 **Empowering grassroots esports communities with daily competitive arenas & seamless rewards**
 
-Nền tảng kiến tạo sân chơi thể thao điện tử phong trào diễn ra hằng ngày: tự động hóa điều phối nhánh đấu, quản trị điểm thi đấu tại các chuỗi phòng máy (cybercafes) và giải ngân phần thưởng thi đấu theo thời gian thực. Giúp cộng đồng game thủ có môi trường cạnh tranh chuyên nghiệp và tạo dòng doanh thu O2O bền vững cho các chủ cybercafe.
+Centralizes the competitive tournament lifecycle: automated bracket management, cybercafe venue coordination, and real-time prize distribution. Creates accessible competitive environments for gamers while generating sustainable O2O revenue streams for venue operators.
 
-- **Stack:** Next.js, Node.js, PostgreSQL, Bracket Engine, Leaderboard & Reward Logic.
+- **Stack:** Next.js, Node.js, PostgreSQL, Bracket Engine, Leaderboard & Reward Logic
 
 ---
 
-### 🥗 ChayFood
+### ChayFood
 **Harmonizing personal nutrition metrics with farm-to-table traceability**
 
-ChayFood số hóa phong cách sống lành mạnh bằng công cụ tính toán chỉ số dinh dưỡng cá nhân hóa theo từng thể trạng, kết hợp liên kết trực tiếp chuỗi cung ứng Farm-to-Table từ các nông trại hữu cơ chuẩn sạch tới bàn ăn người tiêu dùng.
+Digitalizes healthy living through personalized nutrition calculation engines tailored to individual health metrics, connected directly to farm-to-table supply chains from organic agricultural partners.
 
-- **Stack:** Next.js, NestJS, PostgreSQL, Redis, Data Modeling, Nutrition Metric Engine.
+- **Stack:** Next.js, NestJS, PostgreSQL, Redis, Data Modeling, Nutrition Metric Engine
 
 ---
 
-### 🏛️ Trustbase
+### Trustbase
 **Multi-vendor digital products & freelance marketplace**
 
-Sàn thương mại điện tử kết nối các nhà sáng tạo nội dung số và freelancer với khách hàng toàn cầu qua cơ chế giao dịch minh bạch, bảo vệ quyền lợi người mua/bán và xử lý dòng tiền an toàn.
+Multi-vendor marketplace platform connecting digital creators and freelancers with clients globally through transparent transactions, role-based workflows, and secure cashflow escrow mechanics.
 
-- **Stack:** Next.js, NestJS, PostgreSQL, Redis, Multi-Vendor Architecture, Payment Adapters.
+- **Stack:** Next.js, NestJS, PostgreSQL, Redis, Multi-Vendor Architecture, Payment Adapters
 
 ---
 
-### 🖥️ Netsla
+### Netsla
 **Next-generation cybercafe ecosystem & community engagement hub**
 
-Chuyển đổi các trung tâm phòng máy từ điểm cho thuê phần cứng truyền thống thành tổ hợp cộng đồng thông minh: tích hợp giám sát máy trạm, quản lý hội viên, hệ thống tích điểm loyalty và tổ chức sự kiện địa phương.
+Transforms traditional computer rental facilities into connected community hubs through workstation telemetry, member management, loyalty reward engines, and localized tournament operations.
 
-- **Stack:** Next.js, React, Dashboard UX, Loyalty Engine.
+- **Stack:** Next.js, React, Dashboard UX, Loyalty Engine
 
 ---
 
-### 📝 Topic2Test
+### Topic2Test
 **Context-rich AI quiz engine & structured knowledge extraction**
 
-Tự động chuyển đổi tài liệu thô và tri thức chuyên ngành thành ngân hàng câu hỏi trắc nghiệm có cấu trúc, đi kèm giải thích logic và phân loại độ khó đa tầng thông qua quy trình RAG & Structured JSON Output.
+Transforms raw documents and domain literature into structured, multi-choice question banks complete with reasoning explanations and multi-tier difficulty classifications via RAG and structured JSON outputs.
 
-- **Stack:** Next.js, Node.js, RAG Retrieval, Structured JSON Output.
+- **Stack:** Next.js, Node.js, RAG Retrieval, Structured JSON Output
 
 ---
 
-### 🎯 DealSniper
+### DealSniper
 **Contextual shopping intelligence & automated price arbitrage**
 
-Trợ lý mua sắm thông minh hoạt động trực tiếp trong hành trình duyệt web: tự động so sánh giá trị sản phẩm, phát hiện ưu đãi ẩn và tối ưu hóa quyết định chi tiêu cho người dùng theo thời gian thực.
+Intelligent in-browser shopping assistant that evaluates product values, identifies optimal deals, and streamlines purchasing decisions directly within the shopping context.
 
-- **Stack:** React, Next.js, Extension Architecture, Product Design.
+- **Stack:** React, Next.js, Extension Architecture, Product Design
 
 ---
 
-## 🛠️ Core Tech Stack & Tooling
+## Tech Stack & Tooling
 
-### ⚡ Primary Backend & Frontend
+### Core Backend & Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -130,7 +130,7 @@ Trợ lý mua sắm thông minh hoạt động trực tiếp trong hành trình 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### 🧱 System Design & Architectural Patterns
+### System Design & Patterns
 ![State Machine](https://img.shields.io/badge/State_Machine_(FSM)-8B5CF6?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
 ![Payment Factory](https://img.shields.io/badge/Payment_Factory_%26_Adapters-22C55E?style=for-the-badge&logo=cashapp&logoColor=white)
 ![Cron Jobs](https://img.shields.io/badge/Cron_Jobs_%26_Workers-F59E0B?style=for-the-badge&logo=clockify&logoColor=white)
@@ -138,7 +138,7 @@ Trợ lý mua sắm thông minh hoạt động trực tiếp trong hành trình 
 ![Presigned S3](https://img.shields.io/badge/Presigned_URLs_(S3)-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC_Auth-6366F1?style=for-the-badge&logo=auth0&logoColor=white)
 
-### 🤖 Agentic AI & Next-Gen Tooling
+### Agentic AI & Modern Tooling
 ![Subagents](https://img.shields.io/badge/Subagents_&_Delegations-7C3AED?style=for-the-badge&logo=probot&logoColor=white)
 ![Agent Skills](https://img.shields.io/badge/Agent_Skills_&_Rules-0EA5E9?style=for-the-badge&logo=codewars&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Architecture-374151?style=for-the-badge&logo=protocolsdotio&logoColor=white)
@@ -148,7 +148,7 @@ Trợ lý mua sắm thông minh hoạt động trực tiếp trong hành trình 
 ![Antigravity CLI](https://img.shields.io/badge/Antigravity_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![OpenAI Codex](https://img.shields.io/badge/Codex-111827?style=for-the-badge&logo=openai&logoColor=white)
 
-### 🚀 Production, DevOps & Server
+### Server, DevOps & CI/CD
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD_(GitHub_Actions)-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -158,17 +158,17 @@ Trợ lý mua sắm thông minh hoạt động trực tiếp trong hành trình 
 
 ---
 
-## 💡 Engineering & Product Mindset
+## Engineering Mindset
 
 ```txt
 System Integrity > Quick Fixes
 Design clean transaction lifecycles, structured data contracts, and secure session boundaries.
 
 Agentic Workflows > Raw Prompts
-AI becomes a superpower when tools, domain skills, subagent delegation, and rules are systematically engineered.
+AI becomes a superpower when tools, domain skills, subagent delegations, and rules are systematically engineered.
 
 Rigorous Code Review > Assumption-Driven Coding
-Continuous learning and peer review build resilient, production-ready software.
+Continuous learning and peer reviews build resilient, production-ready software.
 
 Real-World Impact > Vanity Code
 Great software completes the operational loop — from database records to real-world businesses.
@@ -176,7 +176,7 @@ Great software completes the operational loop — from database records to real-
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=justpassingByte&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
@@ -187,6 +187,6 @@ Great software completes the operational loop — from database records to real-
 
 <div align="center">
 
-### Let's build scalable systems and meaningful products. 🚀
+### Let's build scalable systems and meaningful products.
 
 </div>
