@@ -176,11 +176,13 @@ Great software completes the operational loop — from database records to real-
 
 ---
 
-## Contribution & Activity Graph
+## Contribution Activity
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=justpassingByte&theme=tokyo-night&hide_border=true" width="100%" alt="justpassingByte's GitHub Activity Graph" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/justpassingByte/justpassingByte/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/justpassingByte/justpassingByte/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/justpassingByte/justpassingByte/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
 
 ---
 
