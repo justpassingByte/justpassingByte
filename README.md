@@ -4,7 +4,7 @@
 
 ### Full-Stack Engineer | Next.js • NestJS • PostgreSQL • Redis • Agentic AI
 
-*Product-driven engineer architecting high-trust marketplaces, multi-gateway payment engines, state-driven workflows, and agentic AI systems.*
+*Product-driven engineer architecting high-trust marketplaces, multi-gateway payment engines, distributed task queues, and agentic AI systems.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-justpassingByte-181717?style=for-the-badge&logo=github)](https://github.com/justpassingByte)
 [![Facebook](https://img.shields.io/badge/Facebook-Leoz666-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/Leoz666)
@@ -17,7 +17,7 @@
 ## About Me & Career Aspirations
 
 - **Current Focus:** Full-Stack Engineering at **Trustbase** (Digital Products & Freelance Marketplace).
-- **Core Stack:** Next.js (Frontend), NestJS (Backend), PostgreSQL & Redis (Data, Caching & Concurrency).
+- **Core Stack:** Next.js (Frontend), NestJS (Backend), PostgreSQL & Redis (Data, Caching, Locking & Queues).
 - **AI-Native Engineering:** Designing structured software workflows with **Agentic Systems** — orchestrating subagent delegations, custom agent skills, domain rules, tool calling, and MCP for requirements modeling, refactoring, and code verification.
 - **Career Growth & Philosophy:** 
   Driven by curiosity and a commitment to engineering excellence. I am actively looking to contribute within **high-standard, collaborative engineering teams** where I can execute fast while refining habits around rigorous code reviews, distributed system design, and production reliability.
@@ -31,17 +31,23 @@ Key engineering patterns and production challenges I tackle across real-world sy
 - **State-Driven Architectures (FSM):**  
   Model complex domain lifecycles (Order, Escrow, Dispute resolution) using Finite State Machines to enforce deterministic state transitions and eliminate race conditions under concurrent workloads.
 
+- **Concurrency Control & Financial Data Integrity:**  
+  Enforce pessimistic locking (`SELECT ... FOR UPDATE`) combined with Redis distributed locks to prevent double-spending, inventory overselling, and balance inconsistency under concurrent transactions.
+
 - **Modular Payment Engines & Cashflow Integrity:**  
   Architect modular payment gateways using the Factory and Adapter patterns for seamless multi-provider expansion, integrated with webhook idempotency keys to prevent duplicate transactions and automate revenue reconciliation.
 
-- **Distributed Caching & Concurrency Control (Redis):**  
-  Optimize read performance with distributed caching layers, enforce distributed idempotency locks on financial operations, and implement rate limiters to protect critical API endpoints.
+- **Asynchronous Task Processing & Event Queues (BullMQ / Redis):**  
+  Decouple resource-intensive operations (escrow settlement, receipt generation, webhook dispatches) into background job queues with exponential backoff retries and Dead Letter Queues (DLQ).
 
 - **Secure Digital Asset Delivery (Presigned S3 URLs):**  
   Design direct cloud-storage upload/download pipelines with short-lived presigned URLs and cryptographic signatures, eliminating I/O bottlenecks on backend servers while securing digital property.
 
 - **Authentication & Multi-Tier Access Control:**  
   Implement robust JWT authentication with refresh token rotation, multi-device session management, and multi-tier role-based access control (RBAC).
+
+- **Testing, Quality & Production Observability:**  
+  Write comprehensive Unit and Integration tests (Vitest, Testcontainers) for critical business logic and state transitions; incorporate structured logging with Correlation IDs for end-to-end request tracing.
 
 ---
 
@@ -89,7 +95,7 @@ Digitalizes healthy living through personalized nutrition calculation engines ta
 
 Multi-vendor marketplace platform connecting digital creators and freelancers with clients globally through transparent transactions, role-based workflows, and secure cashflow escrow mechanics.
 
-- **Stack:** Next.js, NestJS, PostgreSQL, Redis, Multi-Vendor Architecture, Payment Adapters
+- **Stack:** Next.js, NestJS, PostgreSQL, Redis, BullMQ, Multi-Vendor Architecture, Payment Adapters
 
 ---
 
@@ -130,13 +136,20 @@ Intelligent in-browser shopping assistant that evaluates product values, identif
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### System Design & Patterns
+### System Design & Concurrency Patterns
 ![State Machine](https://img.shields.io/badge/State_Machine_(FSM)-8B5CF6?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
+![Pessimistic Locking](https://img.shields.io/badge/DB_Locks_&_Transactions-0F766E?style=for-the-badge&logo=databricks&logoColor=white)
 ![Payment Factory](https://img.shields.io/badge/Payment_Factory_%26_Adapters-22C55E?style=for-the-badge&logo=cashapp&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ_&_Queues-CC3534?style=for-the-badge&logo=redis&logoColor=white)
 ![Cron Jobs](https://img.shields.io/badge/Cron_Jobs_%26_Workers-F59E0B?style=for-the-badge&logo=clockify&logoColor=white)
 ![JWT Auth](https://img.shields.io/badge/JWT_&_Refresh_Tokens-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Presigned S3](https://img.shields.io/badge/Presigned_URLs_(S3)-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC_Auth-6366F1?style=for-the-badge&logo=auth0&logoColor=white)
+
+### Testing & Observability
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Structured Logging](https://img.shields.io/badge/Correlation_Tracing-4B5563?style=for-the-badge&logo=sentry&logoColor=white)
 
 ### Agentic AI & Modern Tooling
 ![Subagents](https://img.shields.io/badge/Subagents_&_Delegations-7C3AED?style=for-the-badge&logo=probot&logoColor=white)
